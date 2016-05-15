@@ -1,3 +1,85 @@
-h1 {
-    color: red;
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 120px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.box {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: #e6e6e6;
+    display: inline-block;
+}
+
+.one{
+    width:60%;
+    float:left;
+}
+
+.line{
+    padding: 5px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.two{
+    margin-left: 30px;
+    width: 30%;
+}
+
+.list {
+    display: inline-block;
+    width: 33%;
+}
+
+.left {
+    float: left;
+}
+
+.middle {
+    float: left;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.amount {
+    display: inline-block;
+}
+
+.minus {
+    background: #ff8080;
+    color: white;
+}
+
+.plus {
+    background: #bfff80;
+    color: white;
+}
+
+.delete {
+    background: #ff8080;
+}
+
+.bought, .products {
+    display: inline-block;
+    padding: 5px;
+    background: #eeeeee;
+}
+
+.bought, .bought-amount {
+    text-decoration: line-through;
+}
+
+.bought-amount, .products-amount {
+    display: inline-block;
+    padding: 2px;
+    background: #ffcc80;
+    color: white;
 }
