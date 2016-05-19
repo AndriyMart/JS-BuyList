@@ -64,7 +64,7 @@ h4 {
 }
 
 .delete {
-    background: #ff8080;
+    background: red;
 }
 
 .bought, .products {
@@ -82,4 +82,16 @@ h4 {
     padding: 2px;
     background: #ffcc80;
     color: white;
+}
+
+.template {
+    display: none;
+}
+
+.active {
+    background: red;
+}
+
+.crossed {
+    text-decoration: line-through;
 }
